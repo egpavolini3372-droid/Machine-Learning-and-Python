@@ -1,0 +1,15 @@
+data = "first;second;third;forth"
+print(data)
+print(len(data))
+
+data2 = data.split()
+print(len(data2))
+print(data2)
+
+data3 = data.split(";")
+print(len(data3))
+print(data3)
+
+fruit = 'Banana'
+fruit[0] = 'b'
+print(fruit)
